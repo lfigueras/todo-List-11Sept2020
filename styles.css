@@ -1,0 +1,35 @@
+.main-container, .img{
+    width: 30rem;
+    display: table;
+    margin: 0 auto;
+}
+.image-head{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.del{
+    width: 5rem;
+    cursor: pointer; 
+    margin-left: 5rem;
+    display: fixed;
+    background-size: 100%;
+}
+.far{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.check{
+    margin-right: 1rem;
+}
+
+.strike{
+    text-decoration: line-through;
+}
